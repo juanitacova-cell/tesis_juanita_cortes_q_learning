@@ -1,0 +1,505 @@
+fecha,commodity,unidad_original,columna_fuente,valor
+2011-07-01,fosfat,USD/tonelada,Final Phosphate Price,161.88
+2011-08-01,fosfat,USD/tonelada,Final Phosphate Price,182.5
+2011-09-01,fosfat,USD/tonelada,Final Phosphate Price,182.5
+2011-10-01,fosfat,USD/tonelada,Final Phosphate Price,188.75
+2011-11-01,fosfat,USD/tonelada,Final Phosphate Price,195.0
+2011-12-01,fosfat,USD/tonelada,Final Phosphate Price,195.0
+2012-01-01,fosfat,USD/tonelada,Final Phosphate Price,195.0
+2012-02-01,fosfat,USD/tonelada,Final Phosphate Price,190.0
+2012-03-01,fosfat,USD/tonelada,Final Phosphate Price,160.0
+2012-04-01,fosfat,USD/tonelada,Final Phosphate Price,185.0
+2012-05-01,fosfat,USD/tonelada,Final Phosphate Price,195.0
+2012-06-01,fosfat,USD/tonelada,Final Phosphate Price,193.13
+2012-07-01,fosfat,USD/tonelada,Final Phosphate Price,188.5
+2012-08-01,fosfat,USD/tonelada,Final Phosphate Price,182.5
+2012-09-01,fosfat,USD/tonelada,Final Phosphate Price,182.5
+2012-10-01,fosfat,USD/tonelada,Final Phosphate Price,182.5
+2012-11-01,fosfat,USD/tonelada,Final Phosphate Price,182.5
+2012-12-01,fosfat,USD/tonelada,Final Phosphate Price,182.5
+2013-01-01,fosfat,USD/tonelada,Final Phosphate Price,182.5
+2013-02-01,fosfat,USD/tonelada,Final Phosphate Price,182.5
+2013-03-01,fosfat,USD/tonelada,Final Phosphate Price,160.0
+2013-04-01,fosfat,USD/tonelada,Final Phosphate Price,111.5
+2013-05-01,fosfat,USD/tonelada,Final Phosphate Price,157.5
+2013-06-01,fosfat,USD/tonelada,Final Phosphate Price,125.63
+2013-07-01,fosfat,USD/tonelada,Final Phosphate Price,115.0
+2013-08-01,fosfat,USD/tonelada,Final Phosphate Price,115.0
+2013-09-01,fosfat,USD/tonelada,Final Phosphate Price,97.5
+2013-10-01,fosfat,USD/tonelada,Final Phosphate Price,84.38
+2013-11-01,fosfat,USD/tonelada,Final Phosphate Price,87.5
+2013-12-01,fosfat,USD/tonelada,Final Phosphate Price,96.88
+2014-01-01,fosfat,USD/tonelada,Final Phosphate Price,97.5
+2014-02-01,fosfat,USD/tonelada,Final Phosphate Price,97.5
+2014-03-01,fosfat,USD/tonelada,Final Phosphate Price,106.6
+2014-04-01,fosfat,USD/tonelada,Final Phosphate Price,111.5
+2014-05-01,fosfat,USD/tonelada,Final Phosphate Price,112.63
+2014-06-01,fosfat,USD/tonelada,Final Phosphate Price,111.4
+2014-07-01,fosfat,USD/tonelada,Final Phosphate Price,111.0
+2014-08-01,fosfat,USD/tonelada,Final Phosphate Price,111.0
+2014-09-01,fosfat,USD/tonelada,Final Phosphate Price,111.38
+2014-10-01,fosfat,USD/tonelada,Final Phosphate Price,116.0
+2014-11-01,fosfat,USD/tonelada,Final Phosphate Price,119.5
+2014-12-01,fosfat,USD/tonelada,Final Phosphate Price,119.5
+2015-01-01,fosfat,USD/tonelada,Final Phosphate Price,119.5
+2015-02-01,fosfat,USD/tonelada,Final Phosphate Price,121.25
+2015-03-01,fosfat,USD/tonelada,Final Phosphate Price,123.0
+2015-04-01,fosfat,USD/tonelada,Final Phosphate Price,114.13
+2015-05-01,fosfat,USD/tonelada,Final Phosphate Price,110.5
+2015-06-01,fosfat,USD/tonelada,Final Phosphate Price,118.9
+2015-07-01,fosfat,USD/tonelada,Final Phosphate Price,121.0
+2015-08-01,fosfat,USD/tonelada,Final Phosphate Price,121.0
+2015-09-01,fosfat,USD/tonelada,Final Phosphate Price,124.0
+2015-10-01,fosfat,USD/tonelada,Final Phosphate Price,123.5
+2015-11-01,fosfat,USD/tonelada,Final Phosphate Price,123.5
+2015-12-01,fosfat,USD/tonelada,Final Phosphate Price,123.5
+2016-01-01,fosfat,USD/tonelada,Final Phosphate Price,122.6
+2016-02-01,fosfat,USD/tonelada,Final Phosphate Price,114.5
+2016-03-01,fosfat,USD/tonelada,Final Phosphate Price,114.5
+2016-04-01,fosfat,USD/tonelada,Final Phosphate Price,114.13
+2016-05-01,fosfat,USD/tonelada,Final Phosphate Price,110.5
+2016-06-01,fosfat,USD/tonelada,Final Phosphate Price,110.5
+2016-07-01,fosfat,USD/tonelada,Final Phosphate Price,110.5
+2016-08-01,fosfat,USD/tonelada,Final Phosphate Price,109.75
+2016-09-01,fosfat,USD/tonelada,Final Phosphate Price,109.0
+2016-10-01,fosfat,USD/tonelada,Final Phosphate Price,109.0
+2016-11-01,fosfat,USD/tonelada,Final Phosphate Price,103.0
+2016-12-01,fosfat,USD/tonelada,Final Phosphate Price,97.5
+2017-01-01,fosfat,USD/tonelada,Final Phosphate Price,96.88
+2017-02-01,fosfat,USD/tonelada,Final Phosphate Price,95.0
+2017-03-01,fosfat,USD/tonelada,Final Phosphate Price,97.5
+2017-04-01,fosfat,USD/tonelada,Final Phosphate Price,95.63
+2017-05-01,fosfat,USD/tonelada,Final Phosphate Price,92.5
+2017-06-01,fosfat,USD/tonelada,Final Phosphate Price,92.5
+2017-07-01,fosfat,USD/tonelada,Final Phosphate Price,92.5
+2017-08-01,fosfat,USD/tonelada,Final Phosphate Price,88.75
+2017-09-01,fosfat,USD/tonelada,Final Phosphate Price,85.0
+2017-10-01,fosfat,USD/tonelada,Final Phosphate Price,80.0
+2017-11-01,fosfat,USD/tonelada,Final Phosphate Price,80.0
+2017-12-01,fosfat,USD/tonelada,Final Phosphate Price,80.0
+2018-01-01,fosfat,USD/tonelada,Final Phosphate Price,80.0
+2018-02-01,fosfat,USD/tonelada,Final Phosphate Price,82.5
+2018-03-01,fosfat,USD/tonelada,Final Phosphate Price,84.7
+2018-04-01,fosfat,USD/tonelada,Final Phosphate Price,88.0
+2018-05-01,fosfat,USD/tonelada,Final Phosphate Price,88.0
+2018-06-01,fosfat,USD/tonelada,Final Phosphate Price,86.8
+2018-07-01,fosfat,USD/tonelada,Final Phosphate Price,86.88
+2018-08-01,fosfat,USD/tonelada,Final Phosphate Price,87.5
+2018-09-01,fosfat,USD/tonelada,Final Phosphate Price,87.5
+2018-10-01,fosfat,USD/tonelada,Final Phosphate Price,91.25
+2018-11-01,fosfat,USD/tonelada,Final Phosphate Price,92.5
+2018-12-01,fosfat,USD/tonelada,Final Phosphate Price,99.17
+2019-01-01,fosfat,USD/tonelada,Final Phosphate Price,102.5
+2019-02-01,fosfat,USD/tonelada,Final Phosphate Price,102.5
+2019-03-01,fosfat,USD/tonelada,Final Phosphate Price,98.5
+2019-04-01,fosfat,USD/tonelada,Final Phosphate Price,97.5
+2019-05-01,fosfat,USD/tonelada,Final Phosphate Price,97.5
+2019-06-01,fosfat,USD/tonelada,Final Phosphate Price,97.5
+2019-07-01,fosfat,USD/tonelada,Final Phosphate Price,80.0
+2019-08-01,fosfat,USD/tonelada,Final Phosphate Price,78.0
+2019-09-01,fosfat,USD/tonelada,Final Phosphate Price,77.5
+2019-10-01,fosfat,USD/tonelada,Final Phosphate Price,77.5
+2019-11-01,fosfat,USD/tonelada,Final Phosphate Price,74.0
+2019-12-01,fosfat,USD/tonelada,Final Phosphate Price,72.5
+2020-01-01,fosfat,USD/tonelada,Final Phosphate Price,72.5
+2020-02-01,fosfat,USD/tonelada,Final Phosphate Price,72.5
+2020-03-01,fosfat,USD/tonelada,Final Phosphate Price,71.88
+2020-04-01,fosfat,USD/tonelada,Final Phosphate Price,70.75
+2020-05-01,fosfat,USD/tonelada,Final Phosphate Price,72.9
+2020-06-01,fosfat,USD/tonelada,Final Phosphate Price,75.0
+2020-07-01,fosfat,USD/tonelada,Final Phosphate Price,75.0
+2020-08-01,fosfat,USD/tonelada,Final Phosphate Price,76.88
+2020-09-01,fosfat,USD/tonelada,Final Phosphate Price,79.38
+2020-10-01,fosfat,USD/tonelada,Final Phosphate Price,80.0
+2020-11-01,fosfat,USD/tonelada,Final Phosphate Price,82.5
+2020-12-01,fosfat,USD/tonelada,Final Phosphate Price,83.33
+2021-01-01,fosfat,USD/tonelada,Final Phosphate Price,85.0
+2021-02-01,fosfat,USD/tonelada,Final Phosphate Price,88.13
+2021-03-01,fosfat,USD/tonelada,Final Phosphate Price,96.25
+2021-04-01,fosfat,USD/tonelada,Final Phosphate Price,95.0
+2021-05-01,fosfat,USD/tonelada,Final Phosphate Price,102.5
+2021-06-01,fosfat,USD/tonelada,Final Phosphate Price,125.0
+2021-07-01,fosfat,USD/tonelada,Final Phosphate Price,125.0
+2021-08-01,fosfat,USD/tonelada,Final Phosphate Price,136.88
+2021-09-01,fosfat,USD/tonelada,Final Phosphate Price,147.5
+2021-10-01,fosfat,USD/tonelada,Final Phosphate Price,147.5
+2021-11-01,fosfat,USD/tonelada,Final Phosphate Price,153.13
+2021-12-01,fosfat,USD/tonelada,Final Phosphate Price,176.67
+2022-01-01,fosfat,USD/tonelada,Final Phosphate Price,173.13
+2022-02-01,fosfat,USD/tonelada,Final Phosphate Price,172.5
+2022-03-01,fosfat,USD/tonelada,Final Phosphate Price,178.75
+2022-04-01,fosfat,USD/tonelada,Final Phosphate Price,249.5
+2022-05-01,fosfat,USD/tonelada,Final Phosphate Price,255.0
+2022-06-01,fosfat,USD/tonelada,Final Phosphate Price,287.5
+2022-07-01,fosfat,USD/tonelada,Final Phosphate Price,320.0
+2022-08-01,fosfat,USD/tonelada,Final Phosphate Price,320.0
+2022-09-01,fosfat,USD/tonelada,Final Phosphate Price,320.0
+2022-10-01,fosfat,USD/tonelada,Final Phosphate Price,317.5
+2022-11-01,fosfat,USD/tonelada,Final Phosphate Price,300.0
+2022-12-01,fosfat,USD/tonelada,Final Phosphate Price,300.0
+2023-01-01,fosfat,USD/tonelada,Final Phosphate Price,300.0
+2023-02-01,fosfat,USD/tonelada,Final Phosphate Price,322.5
+2023-03-01,fosfat,USD/tonelada,Final Phosphate Price,345.0
+2023-04-01,fosfat,USD/tonelada,Final Phosphate Price,345.0
+2023-05-01,fosfat,USD/tonelada,Final Phosphate Price,345.0
+2023-06-01,fosfat,USD/tonelada,Final Phosphate Price,344.5
+2023-07-01,fosfat,USD/tonelada,Final Phosphate Price,342.5
+2023-08-01,fosfat,USD/tonelada,Final Phosphate Price,346.25
+2023-09-01,fosfat,USD/tonelada,Final Phosphate Price,347.5
+2023-10-01,fosfat,USD/tonelada,Final Phosphate Price,347.5
+2023-11-01,fosfat,USD/tonelada,Final Phosphate Price,353.6445940203318
+2023-12-01,fosfat,USD/tonelada,Final Phosphate Price,361.70154342914316
+2024-01-01,fosfat,USD/tonelada,Final Phosphate Price,370.6180891517117
+2024-02-01,fosfat,USD/tonelada,Final Phosphate Price,378.22395272016655
+2024-03-01,fosfat,USD/tonelada,Final Phosphate Price,384.08555369259716
+2024-04-01,fosfat,USD/tonelada,Final Phosphate Price,379.0437961433446
+2024-05-01,fosfat,USD/tonelada,Final Phosphate Price,360.6993811256176
+2024-06-01,fosfat,USD/tonelada,Final Phosphate Price,363.24110253455956
+2024-07-01,fosfat,USD/tonelada,Final Phosphate Price,353.0589465927701
+2024-08-01,fosfat,USD/tonelada,Final Phosphate Price,353.0781659328098
+2024-09-01,fosfat,USD/tonelada,Final Phosphate Price,362.77126507848595
+2024-10-01,fosfat,USD/tonelada,Final Phosphate Price,364.91123155130754
+2024-11-01,fosfat,USD/tonelada,Final Phosphate Price,370.58530485755153
+2024-12-01,fosfat,USD/tonelada,Final Phosphate Price,370.0739860007381
+2025-01-01,fosfat,USD/tonelada,Final Phosphate Price,370.1646219901748
+2025-02-01,fosfat,USD/tonelada,Final Phosphate Price,373.07790256212627
+2025-03-01,fosfat,USD/tonelada,Final Phosphate Price,382.4458686627701
+2025-04-01,fosfat,USD/tonelada,Final Phosphate Price,386.08493675795347
+2025-05-01,fosfat,USD/tonelada,Final Phosphate Price,389.7536711459502
+2025-06-01,fosfat,USD/tonelada,Final Phosphate Price,410.3833674597627
+2011-07-01,nitrogeno,USD/tonelada,Price,483.75
+2011-08-01,nitrogeno,USD/tonelada,Price,475.5
+2011-09-01,nitrogeno,USD/tonelada,Price,508.75
+2011-10-01,nitrogeno,USD/tonelada,Price,493.5
+2011-11-01,nitrogeno,USD/tonelada,Price,481.25
+2011-12-01,nitrogeno,USD/tonelada,Price,423.13
+2012-01-01,nitrogeno,USD/tonelada,Price,368.0
+2012-02-01,nitrogeno,USD/tonelada,Price,375.0
+2012-03-01,nitrogeno,USD/tonelada,Price,393.13
+2012-04-01,nitrogeno,USD/tonelada,Price,494.38
+2012-05-01,nitrogeno,USD/tonelada,Price,513.13
+2012-06-01,nitrogeno,USD/tonelada,Price,456.88
+2012-07-01,nitrogeno,USD/tonelada,Price,307.5
+2012-08-01,nitrogeno,USD/tonelada,Price,382.5
+2012-09-01,nitrogeno,USD/tonelada,Price,384.38
+2012-10-01,nitrogeno,USD/tonelada,Price,349.0
+2012-11-01,nitrogeno,USD/tonelada,Price,383.5
+2012-12-01,nitrogeno,USD/tonelada,Price,375.83
+2013-01-01,nitrogeno,USD/tonelada,Price,380.0
+2013-02-01,nitrogeno,USD/tonelada,Price,415.63
+2013-03-01,nitrogeno,USD/tonelada,Price,395.63
+2013-04-01,nitrogeno,USD/tonelada,Price,365.63
+2013-05-01,nitrogeno,USD/tonelada,Price,358.13
+2013-06-01,nitrogeno,USD/tonelada,Price,329.38
+2013-07-01,nitrogeno,USD/tonelada,Price,312.5
+2013-08-01,nitrogeno,USD/tonelada,Price,310.63
+2013-09-01,nitrogeno,USD/tonelada,Price,301.0
+2013-10-01,nitrogeno,USD/tonelada,Price,296.88
+2013-11-01,nitrogeno,USD/tonelada,Price,305.0
+2013-12-01,nitrogeno,USD/tonelada,Price,305.0
+2014-01-01,nitrogeno,USD/tonelada,Price,330.0
+2014-02-01,nitrogeno,USD/tonelada,Price,353.13
+2014-03-01,nitrogeno,USD/tonelada,Price,327.5
+2014-04-01,nitrogeno,USD/tonelada,Price,260.0
+2014-05-01,nitrogeno,USD/tonelada,Price,265.0
+2014-06-01,nitrogeno,USD/tonelada,Price,288.75
+2014-07-01,nitrogeno,USD/tonelada,Price,305.0
+2014-08-01,nitrogeno,USD/tonelada,Price,311.25
+2014-09-01,nitrogeno,USD/tonelada,Price,317.5
+2014-10-01,nitrogeno,USD/tonelada,Price,317.5
+2014-11-01,nitrogeno,USD/tonelada,Price,317.5
+2014-12-01,nitrogeno,USD/tonelada,Price,308.13
+2015-01-01,nitrogeno,USD/tonelada,Price,305.0
+2015-02-01,nitrogeno,USD/tonelada,Price,305.0
+2015-03-01,nitrogeno,USD/tonelada,Price,295.5
+2015-04-01,nitrogeno,USD/tonelada,Price,260.0
+2015-05-01,nitrogeno,USD/tonelada,Price,265.0
+2015-06-01,nitrogeno,USD/tonelada,Price,288.75
+2015-07-01,nitrogeno,USD/tonelada,Price,283.75
+2015-08-01,nitrogeno,USD/tonelada,Price,274.63
+2015-09-01,nitrogeno,USD/tonelada,Price,279.38
+2015-10-01,nitrogeno,USD/tonelada,Price,250.63
+2015-11-01,nitrogeno,USD/tonelada,Price,263.63
+2015-12-01,nitrogeno,USD/tonelada,Price,264.0
+2016-01-01,nitrogeno,USD/tonelada,Price,233.88
+2016-02-01,nitrogeno,USD/tonelada,Price,191.88
+2016-03-01,nitrogeno,USD/tonelada,Price,201.75
+2016-04-01,nitrogeno,USD/tonelada,Price,196.25
+2016-05-01,nitrogeno,USD/tonelada,Price,198.38
+2016-06-01,nitrogeno,USD/tonelada,Price,142.63
+2016-07-01,nitrogeno,USD/tonelada,Price,181.0
+2016-08-01,nitrogeno,USD/tonelada,Price,186.25
+2016-09-01,nitrogeno,USD/tonelada,Price,187.3
+2016-10-01,nitrogeno,USD/tonelada,Price,187.5
+2016-11-01,nitrogeno,USD/tonelada,Price,205.0
+2016-12-01,nitrogeno,USD/tonelada,Price,217.75
+2017-01-01,nitrogeno,USD/tonelada,Price,233.75
+2017-02-01,nitrogeno,USD/tonelada,Price,191.88
+2017-03-01,nitrogeno,USD/tonelada,Price,223.5
+2017-04-01,nitrogeno,USD/tonelada,Price,207.88
+2017-05-01,nitrogeno,USD/tonelada,Price,178.75
+2017-06-01,nitrogeno,USD/tonelada,Price,191.0
+2017-07-01,nitrogeno,USD/tonelada,Price,181.0
+2017-08-01,nitrogeno,USD/tonelada,Price,192.63
+2017-09-01,nitrogeno,USD/tonelada,Price,219.0
+2017-10-01,nitrogeno,USD/tonelada,Price,252.5
+2017-11-01,nitrogeno,USD/tonelada,Price,280.0
+2017-12-01,nitrogeno,USD/tonelada,Price,214.63
+2018-01-01,nitrogeno,USD/tonelada,Price,219.63
+2018-02-01,nitrogeno,USD/tonelada,Price,232.5
+2018-03-01,nitrogeno,USD/tonelada,Price,232.5
+2018-04-01,nitrogeno,USD/tonelada,Price,230.63
+2018-05-01,nitrogeno,USD/tonelada,Price,221.88
+2018-06-01,nitrogeno,USD/tonelada,Price,224.0
+2018-07-01,nitrogeno,USD/tonelada,Price,252.5
+2018-08-01,nitrogeno,USD/tonelada,Price,260.0
+2018-09-01,nitrogeno,USD/tonelada,Price,267.5
+2018-10-01,nitrogeno,USD/tonelada,Price,270.0
+2018-11-01,nitrogeno,USD/tonelada,Price,305.6
+2018-12-01,nitrogeno,USD/tonelada,Price,276.67
+2019-01-01,nitrogeno,USD/tonelada,Price,260.0
+2019-02-01,nitrogeno,USD/tonelada,Price,250.63
+2019-03-01,nitrogeno,USD/tonelada,Price,247.5
+2019-04-01,nitrogeno,USD/tonelada,Price,247.5
+2019-05-01,nitrogeno,USD/tonelada,Price,247.5
+2019-06-01,nitrogeno,USD/tonelada,Price,247.5
+2019-07-01,nitrogeno,USD/tonelada,Price,263.5
+2019-08-01,nitrogeno,USD/tonelada,Price,262.5
+2019-09-01,nitrogeno,USD/tonelada,Price,237.75
+2019-10-01,nitrogeno,USD/tonelada,Price,237.0
+2019-11-01,nitrogeno,USD/tonelada,Price,224.5
+2019-12-01,nitrogeno,USD/tonelada,Price,217.5
+2020-01-01,nitrogeno,USD/tonelada,Price,215.4
+2020-02-01,nitrogeno,USD/tonelada,Price,214.38
+2020-03-01,nitrogeno,USD/tonelada,Price,231.13
+2020-04-01,nitrogeno,USD/tonelada,Price,235.0
+2020-05-01,nitrogeno,USD/tonelada,Price,201.9
+2020-06-01,nitrogeno,USD/tonelada,Price,202.0
+2020-07-01,nitrogeno,USD/tonelada,Price,214.4
+2020-08-01,nitrogeno,USD/tonelada,Price,249.5
+2020-09-01,nitrogeno,USD/tonelada,Price,250.5
+2020-10-01,nitrogeno,USD/tonelada,Price,245.0
+2020-11-01,nitrogeno,USD/tonelada,Price,245.0
+2020-12-01,nitrogeno,USD/tonelada,Price,245.0
+2021-01-01,nitrogeno,USD/tonelada,Price,265.0
+2021-02-01,nitrogeno,USD/tonelada,Price,335.0
+2021-03-01,nitrogeno,USD/tonelada,Price,352.88
+2021-04-01,nitrogeno,USD/tonelada,Price,328.1
+2021-05-01,nitrogeno,USD/tonelada,Price,331.63
+2021-06-01,nitrogeno,USD/tonelada,Price,393.25
+2021-07-01,nitrogeno,USD/tonelada,Price,441.5
+2021-08-01,nitrogeno,USD/tonelada,Price,446.88
+2021-09-01,nitrogeno,USD/tonelada,Price,418.75
+2021-10-01,nitrogeno,USD/tonelada,Price,695.0
+2021-11-01,nitrogeno,USD/tonelada,Price,900.5
+2021-12-01,nitrogeno,USD/tonelada,Price,890.0
+2022-01-01,nitrogeno,USD/tonelada,Price,846.38
+2022-02-01,nitrogeno,USD/tonelada,Price,744.17
+2022-03-01,nitrogeno,USD/tonelada,Price,872.5
+2022-04-01,nitrogeno,USD/tonelada,Price,925.0
+2022-05-01,nitrogeno,USD/tonelada,Price,707.5
+2022-06-01,nitrogeno,USD/tonelada,Price,690.0
+2022-07-01,nitrogeno,USD/tonelada,Price,601.0
+2022-08-01,nitrogeno,USD/tonelada,Price,591.25
+2022-09-01,nitrogeno,USD/tonelada,Price,678.0
+2022-10-01,nitrogeno,USD/tonelada,Price,636.25
+2022-11-01,nitrogeno,USD/tonelada,Price,588.75
+2022-12-01,nitrogeno,USD/tonelada,Price,519.38
+2023-01-01,nitrogeno,USD/tonelada,Price,443.75
+2023-02-01,nitrogeno,USD/tonelada,Price,357.5
+2023-03-01,nitrogeno,USD/tonelada,Price,313.5
+2023-04-01,nitrogeno,USD/tonelada,Price,313.38
+2023-05-01,nitrogeno,USD/tonelada,Price,329.25
+2023-06-01,nitrogeno,USD/tonelada,Price,287.5
+2023-07-01,nitrogeno,USD/tonelada,Price,334.63
+2023-08-01,nitrogeno,USD/tonelada,Price,385.63
+2023-09-01,nitrogeno,USD/tonelada,Price,380.0
+2023-10-01,nitrogeno,USD/tonelada,Price,411.38
+2023-11-01,nitrogeno,USD/tonelada,Price,385.5
+2023-12-01,nitrogeno,USD/tonelada,Price,354.0
+2024-01-01,nitrogeno,USD/tonelada,Price,335.38
+2024-02-01,nitrogeno,USD/tonelada,Price,351.25
+2024-03-01,nitrogeno,USD/tonelada,Price,330.0
+2024-04-01,nitrogeno,USD/tonelada,Price,320.0
+2024-05-01,nitrogeno,USD/tonelada,Price,284.8
+2024-06-01,nitrogeno,USD/tonelada,Price,336.25
+2024-07-01,nitrogeno,USD/tonelada,Price,342.5
+2024-08-01,nitrogeno,USD/tonelada,Price,342.5
+2024-09-01,nitrogeno,USD/tonelada,Price,337.5
+2024-10-01,nitrogeno,USD/tonelada,Price,374.75
+2024-11-01,nitrogeno,USD/tonelada,Price,352.3
+2024-12-01,nitrogeno,USD/tonelada,Price,352.0
+2025-01-01,nitrogeno,USD/tonelada,Price,380.5
+2025-02-01,nitrogeno,USD/tonelada,Price,436.5
+2025-03-01,nitrogeno,USD/tonelada,Price,394.5
+2025-04-01,nitrogeno,USD/tonelada,Price,386.88
+2025-05-01,nitrogeno,USD/tonelada,Price,392.0
+2025-06-01,nitrogeno,USD/tonelada,Price,420.5
+2011-07-01,potash,USD/tonelada,Price,442.5
+2011-08-01,potash,USD/tonelada,Price,442.5
+2011-09-01,potash,USD/tonelada,Price,442.5
+2011-10-01,potash,USD/tonelada,Price,435.0
+2011-11-01,potash,USD/tonelada,Price,435.0
+2011-12-01,potash,USD/tonelada,Price,450.0
+2012-01-01,potash,USD/tonelada,Price,495.0
+2012-02-01,potash,USD/tonelada,Price,495.0
+2012-03-01,potash,USD/tonelada,Price,495.0
+2012-04-01,potash,USD/tonelada,Price,477.5
+2012-05-01,potash,USD/tonelada,Price,477.5
+2012-06-01,potash,USD/tonelada,Price,477.5
+2012-07-01,potash,USD/tonelada,Price,279.5
+2012-08-01,potash,USD/tonelada,Price,477.5
+2012-09-01,potash,USD/tonelada,Price,477.5
+2012-10-01,potash,USD/tonelada,Price,477.5
+2012-11-01,potash,USD/tonelada,Price,477.5
+2012-12-01,potash,USD/tonelada,Price,477.5
+2013-01-01,potash,USD/tonelada,Price,395.0
+2013-02-01,potash,USD/tonelada,Price,395.0
+2013-03-01,potash,USD/tonelada,Price,395.0
+2013-04-01,potash,USD/tonelada,Price,395.0
+2013-05-01,potash,USD/tonelada,Price,395.0
+2013-06-01,potash,USD/tonelada,Price,395.0
+2013-07-01,potash,USD/tonelada,Price,395.0
+2013-08-01,potash,USD/tonelada,Price,395.0
+2013-09-01,potash,USD/tonelada,Price,395.0
+2013-10-01,potash,USD/tonelada,Price,395.0
+2013-11-01,potash,USD/tonelada,Price,395.0
+2013-12-01,potash,USD/tonelada,Price,395.0
+2014-01-01,potash,USD/tonelada,Price,395.0
+2014-02-01,potash,USD/tonelada,Price,307.63
+2014-03-01,potash,USD/tonelada,Price,278.5
+2014-04-01,potash,USD/tonelada,Price,299.0
+2014-05-01,potash,USD/tonelada,Price,300.88
+2014-06-01,potash,USD/tonelada,Price,301.5
+2014-07-01,potash,USD/tonelada,Price,279.5
+2014-08-01,potash,USD/tonelada,Price,279.5
+2014-09-01,potash,USD/tonelada,Price,279.5
+2014-10-01,potash,USD/tonelada,Price,279.5
+2014-11-01,potash,USD/tonelada,Price,279.5
+2014-12-01,potash,USD/tonelada,Price,279.5
+2015-01-01,potash,USD/tonelada,Price,279.5
+2015-02-01,potash,USD/tonelada,Price,279.5
+2015-03-01,potash,USD/tonelada,Price,283.4
+2015-04-01,potash,USD/tonelada,Price,299.0
+2015-05-01,potash,USD/tonelada,Price,300.88
+2015-06-01,potash,USD/tonelada,Price,301.5
+2015-07-01,potash,USD/tonelada,Price,301.5
+2015-08-01,potash,USD/tonelada,Price,301.5
+2015-09-01,potash,USD/tonelada,Price,301.5
+2015-10-01,potash,USD/tonelada,Price,301.5
+2015-11-01,potash,USD/tonelada,Price,301.5
+2015-12-01,potash,USD/tonelada,Price,301.5
+2016-01-01,potash,USD/tonelada,Price,301.5
+2016-02-01,potash,USD/tonelada,Price,301.5
+2016-03-01,potash,USD/tonelada,Price,301.5
+2016-04-01,potash,USD/tonelada,Price,301.5
+2016-05-01,potash,USD/tonelada,Price,301.5
+2016-06-01,potash,USD/tonelada,Price,301.5
+2016-07-01,potash,USD/tonelada,Price,282.5
+2016-08-01,potash,USD/tonelada,Price,206.5
+2016-09-01,potash,USD/tonelada,Price,206.5
+2016-10-01,potash,USD/tonelada,Price,206.5
+2016-11-01,potash,USD/tonelada,Price,206.5
+2016-12-01,potash,USD/tonelada,Price,206.5
+2017-01-01,potash,USD/tonelada,Price,206.5
+2017-02-01,potash,USD/tonelada,Price,301.5
+2017-03-01,potash,USD/tonelada,Price,206.5
+2017-04-01,potash,USD/tonelada,Price,206.5
+2017-05-01,potash,USD/tonelada,Price,206.5
+2017-06-01,potash,USD/tonelada,Price,206.5
+2017-07-01,potash,USD/tonelada,Price,207.25
+2017-08-01,potash,USD/tonelada,Price,215.5
+2017-09-01,potash,USD/tonelada,Price,215.5
+2017-10-01,potash,USD/tonelada,Price,215.5
+2017-11-01,potash,USD/tonelada,Price,215.5
+2017-12-01,potash,USD/tonelada,Price,215.5
+2018-01-01,potash,USD/tonelada,Price,215.5
+2018-02-01,potash,USD/tonelada,Price,215.5
+2018-03-01,potash,USD/tonelada,Price,215.5
+2018-04-01,potash,USD/tonelada,Price,215.5
+2018-05-01,potash,USD/tonelada,Price,215.5
+2018-06-01,potash,USD/tonelada,Price,215.5
+2018-07-01,potash,USD/tonelada,Price,215.5
+2018-08-01,potash,USD/tonelada,Price,215.5
+2018-09-01,potash,USD/tonelada,Price,215.5
+2018-10-01,potash,USD/tonelada,Price,215.5
+2018-11-01,potash,USD/tonelada,Price,215.5
+2018-12-01,potash,USD/tonelada,Price,215.5
+2019-01-01,potash,USD/tonelada,Price,215.5
+2019-02-01,potash,USD/tonelada,Price,215.5
+2019-03-01,potash,USD/tonelada,Price,245.5
+2019-04-01,potash,USD/tonelada,Price,265.5
+2019-05-01,potash,USD/tonelada,Price,265.5
+2019-06-01,potash,USD/tonelada,Price,265.5
+2019-07-01,potash,USD/tonelada,Price,265.5
+2019-08-01,potash,USD/tonelada,Price,265.5
+2019-09-01,potash,USD/tonelada,Price,265.5
+2019-10-01,potash,USD/tonelada,Price,265.5
+2019-11-01,potash,USD/tonelada,Price,265.5
+2019-12-01,potash,USD/tonelada,Price,265.5
+2020-01-01,potash,USD/tonelada,Price,245.0
+2020-02-01,potash,USD/tonelada,Price,245.0
+2020-03-01,potash,USD/tonelada,Price,245.0
+2020-04-01,potash,USD/tonelada,Price,245.0
+2020-05-01,potash,USD/tonelada,Price,216.0
+2020-06-01,potash,USD/tonelada,Price,202.5
+2020-07-01,potash,USD/tonelada,Price,202.5
+2020-08-01,potash,USD/tonelada,Price,202.5
+2020-09-01,potash,USD/tonelada,Price,202.5
+2020-10-01,potash,USD/tonelada,Price,202.5
+2020-11-01,potash,USD/tonelada,Price,202.5
+2020-12-01,potash,USD/tonelada,Price,202.5
+2021-01-01,potash,USD/tonelada,Price,202.5
+2021-02-01,potash,USD/tonelada,Price,202.5
+2021-03-01,potash,USD/tonelada,Price,202.5
+2021-04-01,potash,USD/tonelada,Price,202.5
+2021-05-01,potash,USD/tonelada,Price,202.5
+2021-06-01,potash,USD/tonelada,Price,202.5
+2021-07-01,potash,USD/tonelada,Price,202.5
+2021-08-01,potash,USD/tonelada,Price,221.0
+2021-09-01,potash,USD/tonelada,Price,221.0
+2021-10-01,potash,USD/tonelada,Price,221.0
+2021-11-01,potash,USD/tonelada,Price,221.0
+2021-12-01,potash,USD/tonelada,Price,221.0
+2022-01-01,potash,USD/tonelada,Price,785.63
+2022-02-01,potash,USD/tonelada,Price,791.88
+2022-03-01,potash,USD/tonelada,Price,977.5
+2022-04-01,potash,USD/tonelada,Price,1202.0
+2022-05-01,potash,USD/tonelada,Price,1170.0
+2022-06-01,potash,USD/tonelada,Price,1101.88
+2022-07-01,potash,USD/tonelada,Price,1013.0
+2022-08-01,potash,USD/tonelada,Price,888.75
+2022-09-01,potash,USD/tonelada,Price,731.0
+2022-10-01,potash,USD/tonelada,Price,622.5
+2022-11-01,potash,USD/tonelada,Price,563.13
+2022-12-01,potash,USD/tonelada,Price,513.75
+2023-01-01,potash,USD/tonelada,Price,508.75
+2023-02-01,potash,USD/tonelada,Price,496.88
+2023-03-01,potash,USD/tonelada,Price,453.0
+2023-04-01,potash,USD/tonelada,Price,407.5
+2023-05-01,potash,USD/tonelada,Price,372.5
+2023-06-01,potash,USD/tonelada,Price,328.0
+2023-07-01,potash,USD/tonelada,Price,341.25
+2023-08-01,potash,USD/tonelada,Price,353.13
+2023-09-01,potash,USD/tonelada,Price,352.0
+2023-10-01,potash,USD/tonelada,Price,341.88
+2023-11-01,potash,USD/tonelada,Price,331.88
+2023-12-01,potash,USD/tonelada,Price,311.88
+2024-01-01,potash,USD/tonelada,Price,296.25
+2024-02-01,potash,USD/tonelada,Price,289.38
+2024-03-01,potash,USD/tonelada,Price,300.5
+2024-04-01,potash,USD/tonelada,Price,305.0
+2024-05-01,potash,USD/tonelada,Price,307.0
+2024-06-01,potash,USD/tonelada,Price,310.0
+2024-07-01,potash,USD/tonelada,Price,300.63
+2024-08-01,potash,USD/tonelada,Price,294.0
+2024-09-01,potash,USD/tonelada,Price,286.88
+2024-10-01,potash,USD/tonelada,Price,278.13
+2024-11-01,potash,USD/tonelada,Price,281.0
+2024-12-01,potash,USD/tonelada,Price,292.5
+2025-01-01,potash,USD/tonelada,Price,302.0
+2025-02-01,potash,USD/tonelada,Price,318.75
+2025-03-01,potash,USD/tonelada,Price,336.25
+2025-04-01,potash,USD/tonelada,Price,351.88
+2025-05-01,potash,USD/tonelada,Price,362.5
+2025-06-01,potash,USD/tonelada,Price,363.13

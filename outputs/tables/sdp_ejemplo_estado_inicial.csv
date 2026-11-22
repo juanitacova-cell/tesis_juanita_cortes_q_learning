@@ -1,0 +1,2 @@
+epoca,inv_N_ton,inv_P_ton,inv_K_ton,cat_precio_N,cat_precio_P,cat_precio_K,compra_N_ton,compra_P_ton,compra_K_ton,inv_N_siguiente_ton,inv_P_siguiente_ton,inv_K_siguiente_ton,valor_optimo_desde_estado
+1,0.0,0.0,0.0,4,10,2,38072.14641666666,4706.233583333334,16672.951250000002,0.0,0.0,0.0,115322233.50085297

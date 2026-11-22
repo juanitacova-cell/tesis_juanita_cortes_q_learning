@@ -1,0 +1,2 @@
+commodity,metodo,horizonte,n_estados,n_acciones_globales,niveles_inventario,categorias_precio_operativas,categorias_excluidas,rho,beta,tolerancia,cost_scale,expected_policy_value_scaled,expected_policy_value_USD,interpretacion_expected_policy_value
+N,value_iteration,infinito,15,5,0.0000;1903.6073;3807.2146,1;2;3;4;5,,0.05,0.9946291381082925,1e-06,1000000.0,2355.631638370956,2355631638.370956,promedio de V(s) ponderado por la distribucion estacionaria de P_pi

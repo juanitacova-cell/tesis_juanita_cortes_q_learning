@@ -1,0 +1,2 @@
+commodity,metodo_jmarkov,horizonte,n_estados,n_acciones_globales,niveles_inventario,categorias_precio_operativas,categorias_excluidas,rho,beta,cost_scale,nota_minimizacion
+K,dtsdp_backward_iteration,5_epocas,15,5,0.0000;833.6476;1667.2951,1;2;3;4;5,,0.05,1.0,1000000.0,retorno=-costo; solve(minimize=False)

@@ -1,0 +1,299 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath,amssymb,booktabs,array,geometry}
+\usepackage{enumitem}
+\geometry{margin=2.5cm}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.6em}
+
+\title{Formulación del SDP de horizonte finito para la compra de commodities de fertilizantes}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Objetivo del modelo}
+
+Se modela la decisión mensual de compra de tres commodities utilizados en la cadena de suministro de fertilizantes: urea (N), roca fosfórica (P) y cloruro de potasio (K). El objetivo es determinar una política de compra que minimice el costo esperado de abastecimiento durante un horizonte finito de cinco meses, considerando incertidumbre en los precios de compra y exigiendo el cumplimiento de una demanda mensual fija.
+
+\section{Épocas de decisión}
+
+El horizonte de planeación está compuesto por cinco épocas mensuales:
+\[
+\mathcal{T}=\{1,2,3,4,5\}.
+\]
+
+Cada época corresponde a un mes. La decisión de compra se toma al inicio de cada época, después de observar el inventario disponible y la categoría actual de precio de cada commodity.
+
+\section{Parámetros de demanda y capacidad}
+
+La demanda mensual se aproxima a partir de las ventas nacionales 2024 reportadas para fertilizantes SIMPLE N, SIMPLE P y SIMPLE K, convertidas de kg/año a toneladas/mes:
+\[
+ d_N = 38\,072.1464,\qquad
+ d_P = 4\,706.2336,\qquad
+ d_K = 16\,672.9513.
+\]
+
+La capacidad total de almacenamiento de referencia es:
+\[
+M=66\,000\ \text{toneladas}.
+\]
+
+Dado que la fuente de capacidad no discrimina por commodity, se distribuye proporcionalmente a la participación de cada demanda:
+\[
+M_c=M\frac{d_c}{d_N+d_P+d_K}, \qquad c\in\{N,P,K\}.
+\]
+
+Por lo tanto:
+\[
+M_N=42\,265.8603,\qquad
+M_P=5\,224.6335,\qquad
+M_K=18\,509.5062.
+\]
+
+Esta distribución corresponde a un supuesto de modelación y no a capacidades observadas individualmente por commodity.
+
+\section{Discretización de precios}
+
+Para cada commodity se utilizan diez intervalos de precio obtenidos mediante discretización de amplitud uniforme (\textit{equal width}). Por lo tanto, conceptualmente:
+\[
+\mathcal{P}_N=\mathcal{P}_P=\mathcal{P}_K=\{1,2,\ldots,10\}.
+\]
+
+Cada categoría $p_c$ tiene asociado un precio representativo $\bar p_c(p_c)$, definido como el punto medio del intervalo correspondiente. Este precio representativo, expresado en USD/tonelada, es el que se utiliza en la función de costo.
+
+Las probabilidades de transición de precio se estiman por máxima verosimilitud a partir de las transiciones mensuales observadas:
+\[
+\widehat P_c(j\mid i)=\frac{n_{ij}^{(c)}}{\sum_k n_{ik}^{(c)}}.
+\]
+
+\textbf{Nota computacional.} En la discretización actual de fósforo, la categoría 5 no contiene observaciones y, por tanto, no tiene transición saliente estimable. Como además no recibe probabilidad positiva desde las categorías con transición estimada, se mantiene la discretización conceptual de diez intervalos, pero dicha categoría se excluye del espacio operativo del primer prototipo computacional. No se imputan probabilidades artificiales.
+
+\section{Discretización del inventario}
+
+Para conservar la interpretación física de las decisiones y reducir el tamaño del problema, se define un tamaño de lote igual al 10\% de la demanda mensual de cada commodity:
+\[
+\Delta_N=0.1d_N,\qquad
+\Delta_P=0.1d_P,\qquad
+\Delta_K=0.1d_K.
+\]
+
+Numéricamente:
+\[
+\Delta_N=3\,807.2146,\qquad
+\Delta_P=470.6234,\qquad
+\Delta_K=1\,667.2951\quad\text{toneladas}.
+\]
+
+El inventario que puede trasladarse entre meses debe cumplir:
+\[
+0\le x_{t+1}\le M_N-d_N,
+\]
+\[
+0\le y_{t+1}\le M_P-d_P,
+\]
+\[
+0\le z_{t+1}\le M_K-d_K.
+\]
+
+Al restringir los niveles a múltiplos de $\Delta_c$, con los parámetros actuales resultan dos niveles factibles para cada commodity:
+\[
+\mathcal{X}=\{0,\Delta_N\},\qquad
+\mathcal{Y}=\{0,\Delta_P\},\qquad
+\mathcal{Z}=\{0,\Delta_K\}.
+\]
+
+\section{Variable y espacio de estados}
+
+El estado al inicio de la época $t$ es:
+\[
+S_t=(x_t,y_t,z_t,p_{N,t},p_{P,t},p_{K,t}),
+\]
+
+donde $x_t,y_t,z_t$ son los inventarios disponibles y $p_{N,t},p_{P,t},p_{K,t}$ son las categorías de precio actuales.
+
+El espacio de estados se expresa como:
+\[
+\mathcal{S}=\mathcal{X}\times\mathcal{Y}\times\mathcal{Z}\times\mathcal{P}_N\times\mathcal{P}_P\times\mathcal{P}_K.
+\]
+
+Con dos niveles de inventario por commodity y diez categorías conceptuales de precio por commodity, el tamaño teórico sería:
+\[
+2^3\times10^3=8\,000\ \text{estados por época}.
+\]
+
+En el prototipo actual, al excluir únicamente la categoría de fósforo sin transición estimable, se trabajan $7\,200$ estados operativos por época.
+
+\section{Acciones y restricciones de factibilidad}
+
+La acción en la época $t$ es:
+\[
+a_t=(a_{N,t},a_{P,t},a_{K,t}),
+\]
+
+donde cada componente corresponde a toneladas compradas del commodity respectivo.
+
+En vez de discretizar las compras mediante porcentajes arbitrarios, se conserva su interpretación en toneladas. Para cada commodity, la compra necesaria para pasar de un inventario actual $I_{c,t}$ a un inventario final $I_{c,t+1}$ es:
+\[
+a_{c,t}=d_c+I_{c,t+1}-I_{c,t}.
+\]
+
+Dado que $I_{c,t}$ e $I_{c,t+1}$ pertenecen a la malla definida por $\Delta_c$, las compras también quedan expresadas como múltiplos naturales de dicho lote.
+
+Las acciones deben cumplir simultáneamente:
+\[
+I_{c,t}+a_{c,t}\ge d_c,
+\]
+para garantizar el cumplimiento de la demanda, y
+\[
+I_{c,t}+a_{c,t}\le M_c,
+\]
+para respetar la capacidad de almacenamiento antes de despachar la demanda.
+
+No se permiten faltantes.
+
+\section{Dinámica del inventario}
+
+Una vez realizada la compra y satisfecha la demanda del mes, el inventario evoluciona de forma determinística:
+\[
+x_{t+1}=x_t+a_{N,t}-d_N,
+\]
+\[
+y_{t+1}=y_t+a_{P,t}-d_P,
+\]
+\[
+z_{t+1}=z_t+a_{K,t}-d_K.
+\]
+
+Por tanto, para inventarios la probabilidad de transición es:
+\[
+P_I(j\mid i,a)=
+\begin{cases}
+1, & \text{si los inventarios de }j\text{ satisfacen las ecuaciones anteriores},\\
+0, & \text{en otro caso}.
+\end{cases}
+\]
+
+\section{Transición estocástica de precios}
+
+Las categorías de precio evolucionan de acuerdo con las matrices de transición estimadas por máxima verosimilitud. Se asume independencia condicional entre las cadenas de precios de N, P y K. Así:
+\[
+P_{\text{precios}}(p_N',p_P',p_K'\mid p_N,p_P,p_K)
+=
+P_N(p_N'\mid p_N)
+P_P(p_P'\mid p_P)
+P_K(p_K'\mid p_K).
+\]
+
+La probabilidad completa de transición entre dos estados $i$ y $j$, dada una acción $a$, es:
+\[
+P(j\mid i,a)=P_I(j\mid i,a)
+P_N(p_N'\mid p_N)
+P_P(p_P'\mid p_P)
+P_K(p_K'\mid p_K).
+\]
+
+\section{Función de costo inmediato}
+
+Para el primer modelo computacional se toma costo de almacenamiento igual a cero:
+\[
+h_N=h_P=h_K=0.
+\]
+
+El costo inmediato base corresponde al costo de las compras:
+\[
+c(i,a)=
+\bar p_N(p_N)a_N+
+\bar p_P(p_P)a_P+
+\bar p_K(p_K)a_K.
+\]
+
+El código queda preparado para incorporar posteriormente precios de venta $v_N,v_P,v_K$. En ese caso, si la demanda se vende completamente en cada periodo, el costo neto sería:
+\[
+c(i,a)=
+\bar p_N(p_N)a_N+
+\bar p_P(p_P)a_P+
+\bar p_K(p_K)a_K
+-v_Nd_N-v_Pd_P-v_Kd_K.
+\]
+
+Si $v_c$ y $d_c$ son exógenos y constantes respecto a la acción, el término de ingreso no modifica la política óptima de compra; únicamente desplaza el valor de la función objetivo. Esta interpretación queda pendiente de validación con el asesor antes de fijar los precios de venta.
+
+\section{Ecuación de Bellman}
+
+Sea $V_t(i)$ el costo esperado mínimo desde el estado $i$ en la época $t$ hasta el final del horizonte. Para $t=1,2,3,4,5$:
+\[
+V_t(i)=
+\min_{a\in\mathcal{A}(i)}
+\left\{
+c(i,a)+\sum_{j\in\mathcal{S}}P(j\mid i,a)V_{t+1}(j)
+\right\}.
+\]
+
+En forma expandida, aprovechando que el inventario siguiente queda determinado por la acción:
+\begin{align*}
+V_t(x,y,z,p_N,p_P,p_K)=\min_{a\in\mathcal A(i)}\Bigg\{&c(i,a)\\
+&+\sum_{p_N'}\sum_{p_P'}\sum_{p_K'}
+P_N(p_N'\mid p_N)
+P_P(p_P'\mid p_P)
+P_K(p_K'\mid p_K)\\
+&\qquad\cdot V_{t+1}(x',y',z',p_N',p_P',p_K')\Bigg\}.
+\end{align*}
+
+La condición terminal del modelo base es:
+\[
+V_6(i)=0.
+\]
+
+Por tanto, en la quinta época:
+\[
+V_5(i)=\min_{a\in\mathcal A(i)}c(i,a).
+\]
+
+Esta condición implica que el inventario restante después del quinto mes no recibe valor de recuperación. Por ello, es esperable que la política no genere inventario adicional en la última época. Un valor terminal distinto de cero puede evaluarse posteriormente como extensión.
+
+\section{Política óptima}
+
+La política óptima está dada por:
+\[
+\pi_t^*(i)=
+\arg\min_{a\in\mathcal A(i)}
+\left\{
+c(i,a)+\sum_jP(j\mid i,a)V_{t+1}(j)
+\right\}.
+\]
+
+Para cada estado y cada una de las cinco épocas, la política devuelve las toneladas óptimas a comprar de N, P y K.
+
+\section{Implementación computacional}
+
+El SDP se resuelve en Python mediante inducción hacia atrás usando NumPy. La implementación explota dos propiedades del modelo:
+\begin{enumerate}[label=\arabic*.]
+    \item la transición de inventarios es determinística;
+    \item la incertidumbre futura proviene únicamente de las tres cadenas de precios.
+\end{enumerate}
+
+Por ello no es necesario construir matrices densas gigantes de transición para cada acción. Para cada posible inventario siguiente se calcula directamente la esperanza del valor futuro mediante las tres matrices de transición de precios. Esto reduce de manera importante el costo computacional.
+
+La implementación actual genera una tabla con la política óptima para cada estado operativo y cada época, junto con el valor óptimo esperado desde dicho estado.
+
+\section{Supuestos y puntos pendientes de validación}
+
+\begin{itemize}
+    \item Horizonte finito de cinco meses.
+    \item Demanda mensual constante y obligatoriamente satisfecha.
+    \item No se permiten faltantes.
+    \item Capacidad total de 66,000 toneladas distribuida proporcionalmente a la demanda.
+    \item Tamaño de lote de compra/inventario igual al 10\% de la demanda mensual de cada commodity.
+    \item Diez intervalos de discretización de precio por commodity.
+    \item Independencia entre las transiciones de precio de N, P y K.
+    \item Costo de almacenamiento igual a cero en el modelo base.
+    \item Valor terminal del inventario igual a cero en el modelo base.
+    \item Precio de venta pendiente de definición; si es exógeno y la demanda es fija, no altera la política de abastecimiento.
+    \item La categoría 5 de fósforo no tiene observaciones en la discretización actual y se excluye temporalmente del espacio operativo, sin imputar una transición no observada.
+\end{itemize}
+
+\end{document}

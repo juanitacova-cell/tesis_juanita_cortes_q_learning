@@ -1,0 +1,7 @@
+commodity,configuracion,n_categorias,n_transiciones_totales,categorias_sin_transiciones_salientes,categorias_con_pocas_transiciones (<5),prob_promedio_diagonal
+nitrogeno,5_categorias,5,167,0,0,0.681
+nitrogeno,10_categorias,10,167,0,5,0.472
+fosfat,5_categorias,5,167,0,1,0.853
+fosfat,10_categorias,10,167,1,2,0.696
+potash,5_categorias,5,167,0,3,0.621
+potash,10_categorias,10,167,0,7,0.471

@@ -1,0 +1,6 @@
+pandas
+numpy
+matplotlib
+scipy
+openpyxl
+jmarkov @ git+https://github.com/copa-uniandes/jmarkov@942a132f3f9fa7e1141bebbf7d3ed20ca336b2ef
